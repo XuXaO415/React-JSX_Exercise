@@ -7,4 +7,11 @@ function App()  {
     );
 };
 
-ReactDOM.render( <App /> , document.getElementByID("root"));
+// const App = () => (
+//     <div>
+//         <FirstComponent />
+//         <NamedComponent name="Yay area" />
+//     </div>
+// );
+
+ReactDOM.render( <App />, document.getElementById("root"));
